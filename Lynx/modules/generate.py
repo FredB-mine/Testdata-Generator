@@ -5,8 +5,8 @@ import Lynx.utils.config as config
 
 from cyaron import *
 from Lynx import cli
-from Lynx.utils.language import cpp
-from Lynx.utils.constants import SUPPORTED_OJ
+from Lynx.languages import cpp
+from Lynx.constants import SUPPORTED_OJ
 
 # Warning: This may cause security risks. We should try to replace it.
 from importlib import import_module

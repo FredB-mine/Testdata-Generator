@@ -4,8 +4,8 @@ import Lynx.utils.config as config
 
 from Lynx import cli
 from Lynx.utils.log import *
-from Lynx.utils.language import cpp
-from Lynx.utils.constants import CPP_STANDARDS, CHECKERS, VALIDATORS
+from Lynx.languages import cpp
+from Lynx.constants import CPP_STANDARDS, CHECKERS, VALIDATORS
 
 
 @cli.command()

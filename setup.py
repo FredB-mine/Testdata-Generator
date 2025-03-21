@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 from setuptools import setup, find_packages
-from Lynx.utils.constants import VERSION
+from Lynx.constants import VERSION
 
 packages = find_packages()
 

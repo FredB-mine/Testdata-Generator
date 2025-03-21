@@ -2,7 +2,7 @@ import os
 import shutil
 
 from Lynx.utils.log import *
-from Lynx.utils.constants import *
+from Lynx.constants import *
 from Lynx.utils.config import CppProblemConfig
 
 """The structure of a problem directory is as follows:

@@ -19,7 +19,7 @@
 # SOFTWARE.
 
 import click
-from Lynx.utils.constants import VERSION
+from Lynx.constants import VERSION
 
 
 def print_version(ctx, param, value):

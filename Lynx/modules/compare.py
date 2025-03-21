@@ -3,7 +3,7 @@ import os
 import Lynx.utils.config as config
 
 from Lynx import cli
-from Lynx.utils.language import cpp
+from Lynx.languages import cpp
 
 
 @cli.command()
