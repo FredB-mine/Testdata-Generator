@@ -16,6 +16,9 @@ up:
 deps:
 	pipenv install
 
+lock:
+	pipenv lock
+
 _check:
 	python setup.py check
 check: deps _build _check
@@ -30,5 +33,8 @@ check: deps _build _check
 
 _build:
 	rm -fR dist/
-	python setup.py sdist build
+	python3 setup.py sdist bdist_wheel
 build: deps _build
+
+publish: build
+	twine upload dist/*
