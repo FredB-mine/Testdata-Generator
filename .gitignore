@@ -147,3 +147,5 @@ Uploader_log/
 
 # Git tool
 Git_Uploader.py
+
+*.xmind
